@@ -1,0 +1,545 @@
+@charset "utf-8";
+
+@media only screen and (min-width: 1920px) {
+  .form-area {
+    font-size: 1.4rem;
+    width: 750px;
+    height: 540px;
+    left: 120px;
+    top: -webkit-calc(50% - (540px / 2));
+    top: -moz-calc(50% - (540px / 2));
+    top: -ms-calc(50% - (540px / 2));
+    top: -o-calc(50% - (540px / 2));
+    top: calc(50% - (540px / 2));
+  }
+
+  .form-container {
+    width: 700px;
+    height: 490px;
+    margin: 25px auto;
+  }
+
+  .form-container input {
+    width: 373px;
+    height: 35px;
+  }
+
+  .form-container input[name="name"] {
+    left: 130px;
+  }
+
+  .form-container input[name="email"] {
+    left: 120px;
+  }
+
+  .select-items {
+    margin-top: 20px;
+    left: 42px;
+    margin-bottom: 30px;
+  }
+  .select-items .select-item {
+    width: 180px;
+    height: 35px;
+    font-size: 1rem;
+    margin-left: 6px;
+  }
+  .select-items .select-item input[type="radio"] + label {
+    width: 180px;
+    height: 35px;
+    left: -1px;
+    top: -2px;
+  }
+  button[type="submit"] {
+    bottom: 75px;
+    width: 200px;
+    height: 40px;
+    left: -webkit-calc(50% - (200px / 2));
+    left: -moz-calc(50% - (200px / 2));
+    left: -ms-calc(50% - (200px / 2));
+    left: -o-calc(50% - (200px / 2));
+    left: calc(50% - (200px / 2));
+  }
+  button[type="submit"] a,
+  button[type="submit"] a span {
+    font-size: 1.4rem;
+  }
+}
+
+@media only screen and (min-width: 1400px) and (max-width: 1919px) {
+  .form-area {
+    font-size: 1.4rem;
+    width: 750px;
+    height: 540px;
+    left: 120px;
+    top: -webkit-calc(50% - (540px / 2));
+    top: -moz-calc(50% - (540px / 2));
+    top: -ms-calc(50% - (540px / 2));
+    top: -o-calc(50% - (540px / 2));
+    top: calc(50% - (540px / 2));
+  }
+
+  .form-container {
+    width: 700px;
+    height: 490px;
+    margin: 25px auto;
+  }
+
+  .form-container input {
+    width: 373px;
+    height: 35px;
+  }
+
+  .form-container input[name="name"] {
+    left: 130px;
+  }
+
+  .form-container input[name="email"] {
+    left: 120px;
+  }
+
+  .select-items {
+    margin-top: 20px;
+    left: 42px;
+    margin-bottom: 30px;
+  }
+  .select-items .select-item {
+    width: 180px;
+    height: 35px;
+    font-size: 1rem;
+    margin-left: 6px;
+  }
+  .select-items .select-item input[type="radio"] + label {
+    width: 180px;
+    height: 35px;
+    left: -1px;
+    top: -2px;
+  }
+  button[type="submit"] {
+    bottom: 75px;
+    width: 200px;
+    height: 40px;
+    left: -webkit-calc(50% - (200px / 2));
+    left: -moz-calc(50% - (200px / 2));
+    left: -ms-calc(50% - (200px / 2));
+    left: -o-calc(50% - (200px / 2));
+    left: calc(50% - (200px / 2));
+  }
+  button[type="submit"] a,
+  button[type="submit"] a span {
+    font-size: 1.4rem;
+  }
+}
+
+@media only screen and (min-width: 1280px) and (max-width: 1399px) {
+  .form-area {
+    font-size: 1rem;
+    width: 650px;
+    height: 476px;
+    left: 120px;
+    top: -webkit-calc(50% - (476px / 2));
+    top: -moz-calc(50% - (476px / 2));
+    top: -ms-calc(50% - (476px / 2));
+    top: -o-calc(50% - (476px / 2));
+    top: calc(50% - (476px / 2));
+  }
+
+  .form-container {
+    width: 600px;
+    height: 426px;
+    margin: 25px auto;
+  }
+
+  .form-container input {
+    width: 373px;
+    height: 35px;
+  }
+
+  .form-container input[name="name"] {
+    left: 110px;
+  }
+
+  .form-container input[name="email"] {
+    left: 100px;
+  }
+
+  .select-items {
+    margin-top: 20px;
+    left: 20px;
+  }
+  .select-items .select-item {
+    width: 160px;
+    height: 35px;
+    font-size: 1rem;
+    margin-left: 6px;
+  }
+  .select-items .select-item input[type="radio"] + label {
+    width: 160px;
+    height: 35px;
+    left: -1px;
+    top: -2px;
+  }
+  .checkbox {
+    margin-top: 24px;
+  }
+  label[for="explanation"] {
+    margin-top: 30px;
+  }
+  button[type="submit"] {
+    bottom: 60px;
+    width: 200px;
+    height: 40px;
+    left: -webkit-calc(50% - (200px / 2));
+    left: -moz-calc(50% - (200px / 2));
+    left: -ms-calc(50% - (200px / 2));
+    left: -o-calc(50% - (200px / 2));
+    left: calc(50% - (200px / 2));
+  }
+
+  button[type="submit"] a,
+  button[type="submit"] a span {
+    font-size: 1rem;
+  }
+}
+
+@media only screen and (min-width: 1000px) and (max-width: 1279px) {
+  .form-area {
+    font-size: 1rem;
+    width: 650px;
+    height: 476px;
+    left: -webkit-calc(50% - (650px / 2));
+    left: -moz-calc(50% - (650px / 2));
+    left: -ms-calc(50% - (650px / 2));
+    left: -o-calc(50% - (650px / 2));
+    left: calc(50% - (650px / 2));
+    top: -webkit-calc(50% - (476px / 2));
+    top: -moz-calc(50% - (476px / 2));
+    top: -ms-calc(50% - (476px / 2));
+    top: -o-calc(50% - (476px / 2));
+    top: calc(50% - (476px / 2));
+  }
+
+  .form-container {
+    width: 600px;
+    height: 426px;
+    margin: 25px auto;
+  }
+
+  .form-container input {
+    width: 373px;
+    height: 35px;
+  }
+
+  .form-container input[name="name"] {
+    left: 110px;
+  }
+
+  .form-container input[name="email"] {
+    left: 100px;
+  }
+
+  .select-items {
+    margin-top: 20px;
+    left: 20px;
+  }
+  .select-items .select-item {
+    width: 160px;
+    height: 35px;
+    font-size: 1rem;
+    margin-left: 6px;
+  }
+  .select-items .select-item input[type="radio"] + label {
+    width: 160px;
+    height: 35px;
+    left: -1px;
+    top: -2px;
+  }
+  .checkbox {
+    margin-top: 24px;
+  }
+  label[for="explanation"] {
+    margin-top: 30px;
+  }
+  button[type="submit"] {
+    bottom: 60px;
+    width: 200px;
+    height: 40px;
+    left: -webkit-calc(50% - (200px / 2));
+    left: -moz-calc(50% - (200px / 2));
+    left: -ms-calc(50% - (200px / 2));
+    left: -o-calc(50% - (200px / 2));
+    left: calc(50% - (200px / 2));
+  }
+  button[type="submit"] a,
+  button[type="submit"] a span {
+    font-size: 1rem;
+  }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 999px) {
+  .form-area {
+    font-size: 1rem;
+    width: 650px;
+    height: 476px;
+    left: -webkit-calc(50% - (650px / 2));
+    left: -moz-calc(50% - (650px / 2));
+    left: -ms-calc(50% - (650px / 2));
+    left: -o-calc(50% - (650px / 2));
+    left: calc(50% - (650px / 2));
+    top: -webkit-calc(50% - (476px / 2));
+    top: -moz-calc(50% - (476px / 2));
+    top: -ms-calc(50% - (476px / 2));
+    top: -o-calc(50% - (476px / 2));
+    top: calc(50% - (476px / 2));
+  }
+
+  .form-container {
+    width: 600px;
+    height: 426px;
+    margin: 25px auto;
+  }
+
+  .form-container input {
+    width: 373px;
+    height: 35px;
+  }
+
+  .form-container input[name="name"] {
+    left: 110px;
+  }
+
+  .form-container input[name="email"] {
+    left: 100px;
+  }
+
+  .select-items {
+    margin-top: 20px;
+    left: 20px;
+  }
+  .select-items .select-item {
+    width: 160px;
+    height: 35px;
+    font-size: 1rem;
+    margin-left: 6px;
+  }
+  .select-items .select-item input[type="radio"] + label {
+    width: 160px;
+    height: 35px;
+    left: -1px;
+    top: -2px;
+  }
+  .checkbox {
+    margin-top: 24px;
+  }
+  label[for="explanation"] {
+    margin-top: 30px;
+  }
+  button[type="submit"] {
+    bottom: 60px;
+    width: 200px;
+    height: 40px;
+    left: -webkit-calc(50% - (200px / 2));
+    left: -moz-calc(50% - (200px / 2));
+    left: -ms-calc(50% - (200px / 2));
+    left: -o-calc(50% - (200px / 2));
+    left: calc(50% - (200px / 2));
+  }
+  button[type="submit"] a,
+  button[type="submit"] a span {
+    font-size: 1rem;
+  }
+}
+
+@media only screen and (min-width: 400px) and (max-width: 599px) {
+  .form-area {
+    font-size: 0.875rem;
+    width: 300px;
+    height: 600px;
+    left: -webkit-calc(50% - (300px / 2));
+    left: -moz-calc(50% - (300px / 2));
+    left: -ms-calc(50% - (300px / 2));
+    left: -o-calc(50% - (300px / 2));
+    left: calc(50% - (300px / 2));
+    top: -webkit-calc(50% - (600px / 2));
+    top: -moz-calc(50% - (600px / 2));
+    top: -ms-calc(50% - (600px / 2));
+    top: -o-calc(50% - (600px / 2));
+    top: calc(50% - (600px / 2));
+  }
+
+  .form-container {
+    width: 250px;
+    height: 550px;
+    margin: 25px auto;
+  }
+
+  .form-container input {
+    width: 205px;
+    height: 25px;
+  }
+
+  .form-container label[for="name"] {
+    top: 10px;
+  }
+
+  .form-container label[for="email"] {
+    bottom: 20px;
+  }
+  .form-container input[name="name"] {
+    left: 20px;
+    bottom: 10px;
+  }
+
+  .form-container input[name="email"] {
+    left: 20px;
+    bottom: 10px;
+  }
+
+  .form-container label[for="question"] {
+    position: relative;
+    width: 220px;
+    display: block;
+    left: 20px;
+    bottom: 20px;
+  }
+
+  .select-items {
+    position: relative;
+    display: block;
+    left: 15px;
+    bottom: 35px;
+  }
+  .select-items .select-item {
+    width: 160px;
+    height: 35px;
+    font-size: 0.875rem;
+    margin-left: 6px;
+    margin-top: 5px;
+  }
+  .select-items .select-item input[type="radio"] + label {
+    width: 160px;
+    height: 35px;
+    left: -1px;
+    top: -2px;
+  }
+  .checkbox {
+    margin-top: 80px;
+  }
+  label[for="explanation"] {
+    margin-top: 90px;
+    width: 187px;
+    line-height: 25px;
+    margin-left: -3px;
+  }
+  button[type="submit"] {
+    bottom: 40px;
+    width: 200px;
+    height: 40px;
+    left: -webkit-calc(50% - (200px / 2));
+    left: -moz-calc(50% - (200px / 2));
+    left: -ms-calc(50% - (200px / 2));
+    left: -o-calc(50% - (200px / 2));
+    left: calc(50% - (200px / 2));
+  }
+  button[type="submit"] a,
+  button[type="submit"] a span {
+    font-size: 0.875rem;
+  }
+}
+
+@media only screen and (min-width: 300px) and (max-width: 399px) {
+  .form-area {
+    font-size: 0.75rem;
+    width: 280px;
+    height: 600px;
+    left: -webkit-calc(50% - (280px / 2));
+    left: -moz-calc(50% - (280px / 2));
+    left: -ms-calc(50% - (280px / 2));
+    left: -o-calc(50% - (280px / 2));
+    left: calc(50% - (280px / 2));
+    top: calc(50% - (600px / 2));
+    top: -webkit-calc(50% - (600px / 2));
+    top: -moz-calc(50% - (600px / 2));
+    top: -ms-calc(50% - (600px / 2));
+    top: -o-calc(50% - (600px / 2));
+    top: calc(50% - (600px / 2));
+  }
+
+  .form-container {
+    width: 240px;
+    height: 530px;
+    margin: 25px auto;
+  }
+
+  .form-container input {
+    width: 205px;
+    height: 25px;
+  }
+
+  .form-container label[for="name"] {
+    top: 10px;
+  }
+
+  .form-container label[for="email"] {
+    bottom: 20px;
+  }
+  .form-container input[name="name"] {
+    left: 20px;
+    bottom: 10px;
+  }
+
+  .form-container input[name="email"] {
+    left: 20px;
+    bottom: 10px;
+  }
+
+  .form-container label[for="question"] {
+    position: relative;
+    width: 220px;
+    display: block;
+    left: 20px;
+    bottom: 20px;
+  }
+
+  .select-items {
+    position: relative;
+    display: block;
+    left: 15px;
+    bottom: 35px;
+  }
+  .select-items .select-item {
+    width: 160px;
+    height: 35px;
+    font-size: 0.75rem;
+    margin-left: 6px;
+    margin-top: 5px;
+  }
+  .select-items .select-item input[type="radio"] + label {
+    width: 160px;
+    height: 35px;
+    left: -1px;
+    top: -2px;
+  }
+  .checkbox {
+    margin-top: 80px;
+  }
+  label[for="explanation"] {
+    margin-top: 90px;
+    width: 187px;
+    line-height: 25px;
+    margin-left: -3px;
+  }
+  button[type="submit"] {
+    bottom: 60px;
+    width: 200px;
+    height: 40px;
+    left: -webkit-calc(50% - (200px / 2));
+    left: -moz-calc(50% - (200px / 2));
+    left: -ms-calc(50% - (200px / 2));
+    left: -o-calc(50% - (200px / 2));
+    left: calc(50% - (200px / 2));
+  }
+  button[type="submit"] a,
+  button[type="submit"] a span {
+    font-size: 0.75rem;
+  }
+}

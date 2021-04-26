@@ -1,0 +1,185 @@
+@charset "utf-8";
+
+:root {
+  --background: #171627;
+  --inputBackground: rgba(75, 69, 89, 0.25); /*button background*/
+  --buttonShadowColor: rgba(75, 69, 89, 1);
+  --textColor: #36a73a; /*button hover, focus shadow; and form area shadow*/
+  --buttonBackground: #2d2b4a;
+}
+
+.form-area {
+  position: absolute;
+  background-color: var(--background);
+  -webkit-border-radius: 12px;
+  -moz-border-radius: 12px;
+  -ms-border-radius: 12px;
+  -o-border-radius: 12px;
+  border-radius: 12px;
+  -webkit-box-shadow: 0 2px 8px var(--textColor);
+  -moz-box-shadow: 0 2px 8px var(--textColor);
+  -ms-box-shadow: 0 2px 8px var(--textColor);
+  -o-box-shadow: 0 2px 8px var(--textColor);
+  box-shadow: 0 2px 8px var(--textColor);
+  font-weight: 500;
+}
+
+.form-container label {
+  position: relative;
+  left: 20px;
+}
+
+.form-container input {
+  position: relative;
+  border: none;
+  cursor: pointer;
+  background-color: var(--inputBackground);
+}
+
+.form-container input:focus {
+  border: none;
+  outline: none;
+  -webkit-box-shadow: 0 2px 6px var(--textColor);
+  -moz-box-shadow: 0 2px 6px var(--textColor);
+  -ms-box-shadow: 0 2px 6px var(--textColor);
+  -o-box-shadow: 0 2px 6px var(--textColor);
+  box-shadow: 0 2px 6px var(--textColor);
+}
+
+.form-container input[placeholder] {
+  color: var(--textColor);
+}
+
+.form-container label[for="name"],
+.form-container input[name="name"] {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.form-container label[for="email"],
+.form-container input[name="email"] {
+  margin-bottom: 30px;
+}
+
+.select-items {
+  position: relative;
+}
+
+.select-items:first-child {
+  margin-top: 0;
+}
+
+.select-items:last-child {
+  margin-bottom: 0;
+}
+
+.select-items .select-item {
+  padding: 2px;
+  position: relative;
+  float: left;
+  font-weight: 500;
+  color: var(--textColor);
+}
+
+.select-items .select-item input[type="radio"] {
+  display: none;
+}
+
+.select-items .select-item input[type="radio"] + label {
+  position: relative;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  -webkit-align-items: center;
+  -moz-align-items: center;
+  -ms-align-items: center;
+  -o-align-items: center;
+  align-items: center;
+  -webkit-justify-content: center;
+  -moz-justify-content: center;
+  -ms-justify-content: center;
+  -o-justify-content: center;
+  justify-content: center;
+  background-color: var(--inputBackground);
+  -webkit-transition: 0.1s;
+  -moz-transition: 0.1s;
+  -ms-transition: 0.1s;
+  -o-transition: 0.1s;
+  transition: 0.1s;
+}
+
+.select-items .select-item input[type="radio"]:checked + label {
+  outline: none;
+  border: none;
+  background-color: var(--inputBackground);
+  -webkit-box-shadow: 0 2px 6px var(--textColor);
+  -moz-box-shadow: 0 2px 6px var(--textColor);
+  -ms-box-shadow: 0 2px 6px var(--textColor);
+  -o-box-shadow: 0 2px 6px var(--textColor);
+  box-shadow: 0 2px 6px var(--textColor);
+}
+
+span.check-target {
+  font-family: FontAwesome;
+}
+
+input[type="checkbox"].check {
+  position: absolute;
+  left: -999em;
+}
+
+input[type="checkbox"].check + span.check-target:after {
+  content: "\f096";
+  font-size: 1.3rem;
+  top: -20px;
+  left: -23px;
+  position: absolute;
+}
+
+input[type="checkbox"].check:checked + span.check-target:after {
+  content: "\f046";
+  font-size: 1.3rem;
+}
+
+form .checkbox {
+  position: absolute;
+}
+
+span.check {
+  font-size: 1rem;
+  top: 15px;
+  left: 18px;
+  display: inline;
+  padding: 0.5em;
+  position: absolute;
+}
+
+label[for="explanation"] {
+  position: absolute;
+  left: 80px;
+  right: 40px;
+  display: inline;
+}
+
+button[type="submit"] a,
+button[type="submit"] a span {
+  font-family: "Source Code Pro", monospace;
+  font-weight: 600;
+  text-decoration: none;
+  color: var(--textColor);
+  text-align: center;
+  line-height: 35px;
+}
+
+button[type="submit"]:hover,
+button[type="submit"]:focus {
+  -webkit-box-shadow: 0 2px 8px var(--textColor);
+  -moz-box-shadow: 0 2px 8px var(--textColor);
+  -o-box-shadow: 0 2px 8px var(--textColor);
+  -ms-box-shadow: 0 2px 8px var(--textColor);
+  box-shadow: 0 2px 8px var(--textColor);
+  border: none;
+  outline: none;
+}

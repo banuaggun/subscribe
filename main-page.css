@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css?family=Source+Code+Pro:400,500,600");
+:root {
+  --background: #171627;
+  --inputBackground: rgba(75, 69, 89, 0.25); /*button background*/
+  --buttonShadowColor: rgba(75, 69, 89, 1);
+  --textColor: #36a73a; /*button hover, focus shadow; and form area shadow*/
+  --buttonBackground: #2d2b4a;
+}
+
+html {
+  font-size: 100%;
+} /*16px*/
+
+body {
+  background: var(--background);
+  font-family: "Source Code Pro", monospace;
+  font-weight: 400;
+  line-height: 2;
+  color: var(--textColor);
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+p {
+  margin-bottom: 1rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+button#mybtn {
+  margin: 3rem 0 1.38rem;
+  font-family: "Source Code Pro", monospace;
+  font-weight: 600;
+  line-height: 1.9;
+}
+
+h1,
+button#mybtn span {
+  margin-top: 0;
+  font-size: 1.802rem;
+}
+
+h2 {
+  font-size: 1.602rem;
+}
+
+h3,
+button#submit span {
+  font-size: 1.424rem;
+}
+
+h4 {
+  font-size: 1.266rem;
+}
+
+h5 {
+  font-size: 1.125rem;
+}
+
+small,
+.text_small {
+  font-size: 0.889rem;
+}
+
+.main-area {
+  position: absolute;
+}
+
+button {
+  background-color: var(--buttonBackground);
+  color: var(--textColor);
+  border: none;
+  position: absolute;
+  font-weight: 600;
+  box-shadow: 1px 1px 2px var(--textColor);
+}
+
+button a {
+  color: var(--textColor);
+  text-decoration: none;
+}
+
+button#mybtn > span > i.material-icons {
+  position: relative;
+  top: 8px;
+  font-size: 2.2rem;
+}
+
+button#mybtn:hover {
+  box-shadow: 1px 1px 6px var(--textColor);
+}
+
+button#mybtn:focus {
+  outline: none;
+  border: none;
+  box-shadow: 1px 1px 6px var(--textColor);
+}

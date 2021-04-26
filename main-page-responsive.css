@@ -1,0 +1,211 @@
+@charset "utf-8";
+
+@media only screen and (min-width: 1920px) {
+  body {
+    background-image: url("./images/half-background-1300-912.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .main-area {
+    width: 700px;
+    left: 120px;
+    top: calc(50% - (209px / 2));
+  }
+  .main-area h1 {
+    display: block;
+  }
+  h2,
+  h3,
+  h4,
+  h5 {
+    display: none;
+  }
+  button#mybtn {
+    width: 280px;
+    height: 70px;
+    left: calc(50% - 200px);
+  }
+}
+@media only screen and (min-width: 1400px) and (max-width: 1919px) {
+  body {
+    background-image: url("./images/half-background-1300-912.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .main-area {
+    width: 700px;
+    left: 85px;
+    top: calc(50% - (209px / 2));
+  }
+  .main-area h1 {
+    display: block;
+  }
+  h2,
+  h3,
+  h4,
+  h5 {
+    display: none;
+  }
+  button#mybtn {
+    width: 280px;
+    height: 70px;
+    left: calc(50% - 180px);
+  }
+}
+@media only screen and (min-width: 1280px) and (max-width: 1399px) {
+  body {
+    background-image: url("./images/half-background-1200-800.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .main-area {
+    width: 700px;
+    left: 85px;
+    top: calc(50% - (300px / 2));
+  }
+  .main-area h1 {
+    display: block;
+  }
+  h2,
+  h3,
+  h4,
+  h5 {
+    display: none;
+  }
+  button#mybtn {
+    width: 280px;
+    height: 70px;
+    left: calc(50% - 150px);
+  }
+}
+@media only screen and (min-width: 1000px) and (max-width: 1279px) {
+  body {
+    background-image: url("./images/half-background-768-1024.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .main-area {
+    left: 150px;
+    width: calc(100% - 300px);
+    top: calc(50% - (209px / 2));
+  }
+  .main-area h1 {
+    display: block;
+  }
+  h2,
+  h3,
+  h4,
+  h5 {
+    display: none;
+  }
+  button#mybtn {
+    width: 280px;
+    height: 70px;
+    left: calc(50% - 160px);
+  }
+}
+@media only screen and (min-width: 600px) and (max-width: 999px) {
+  body {
+    background-image: url("./images/half-background-768-1024.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .main-area {
+    width: calc(100% - 200px);
+    left: 100px;
+    top: calc(50% - (400px / 2));
+  }
+  .main-area h1 {
+    display: block;
+  }
+  h2,
+  h3,
+  h4,
+  h5 {
+    display: none;
+  }
+  button#mybtn {
+    width: 280px;
+    height: 70px;
+    left: calc(50% - 150px);
+  }
+}
+@media only screen and (min-width: 400px) and (max-width: 599px) {
+  body {
+    background-image: url("./images/half-background-414-896.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .main-area {
+    width: calc(100% - 30px);
+    left: 30px;
+    top: calc(50% - (400px / 2));
+  }
+  .main-area h3 {
+    display: block;
+  }
+  h1,
+  h2,
+  h4,
+  h5 {
+    display: none;
+  }
+  button#mybtn {
+    width: 250px;
+    height: 60px;
+    left: 50px;
+  }
+}
+@media only screen and (min-width: 350px) and (max-width: 399px) {
+  body {
+    background-image: url("./images/half-background-414-896.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .main-area {
+    width: calc(100% - 10px);
+    left: 20px;
+    top: calc(50% - (350px / 2));
+  }
+  .main-area h3 {
+    display: block;
+  }
+  h1,
+  h2,
+  h4,
+  h5 {
+    display: none;
+  }
+  button#mybtn {
+    width: 250px;
+    height: 60px;
+    left: 40px;
+  }
+}
+
+@media only screen and (min-width: 300px) and (max-width: 349px) {
+  body {
+    background-image: url("./images/half-background-414-896.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .main-area {
+    width: calc(100% - 10px);
+    left: 20px;
+    top: calc(50% - (350px / 2));
+  }
+  .main-area h5 {
+    display: block;
+  }
+  h2,
+  h1,
+  h4,
+  h3 {
+    display: none;
+  }
+  button {
+    width: 250px;
+    height: 60px;
+    left: 20px;
+  }
+}
