@@ -25,6 +25,9 @@
     height: 70px;
     left: calc(50% - 200px);
   }
+  .footer-text {
+    font-size: 1.4rem;
+  }
 }
 @media only screen and (min-width: 1400px) and (max-width: 1919px) {
   body {
@@ -51,6 +54,9 @@
     height: 70px;
     left: calc(50% - 180px);
   }
+  .footer-text {
+    font-size: 1.4rem;
+  }
 }
 @media only screen and (min-width: 1280px) and (max-width: 1399px) {
   body {
@@ -63,10 +69,11 @@
     left: 85px;
     top: calc(50% - (300px / 2));
   }
-  .main-area h1 {
+  .main-area h2 {
     display: block;
+    margin-right: 40px;
   }
-  h2,
+  h1,
   h3,
   h4,
   h5 {
@@ -76,6 +83,9 @@
     width: 280px;
     height: 70px;
     left: calc(50% - 150px);
+  }
+  .footer-text {
+    font-size: 1.2rem;
   }
 }
 @media only screen and (min-width: 1000px) and (max-width: 1279px) {
@@ -89,10 +99,11 @@
     width: calc(100% - 300px);
     top: calc(50% - (209px / 2));
   }
-  .main-area h1 {
+  .main-area h2 {
     display: block;
+    margin-right: 40px;
   }
-  h2,
+  h1,
   h3,
   h4,
   h5 {
@@ -103,7 +114,11 @@
     height: 70px;
     left: calc(50% - 160px);
   }
+  .footer-text {
+    font-size: 1.2rem;
+  }
 }
+
 @media only screen and (min-width: 600px) and (max-width: 999px) {
   body {
     background-image: url("./images/half-background-768-1024.jpg");
@@ -115,11 +130,11 @@
     left: 100px;
     top: calc(50% - (400px / 2));
   }
-  .main-area h1 {
+  .main-area h3 {
     display: block;
   }
+  h1,
   h2,
-  h3,
   h4,
   h5 {
     display: none;
@@ -128,6 +143,9 @@
     width: 280px;
     height: 70px;
     left: calc(50% - 150px);
+  }
+  .footer-text {
+    font-size: 1.2rem;
   }
 }
 @media only screen and (min-width: 400px) and (max-width: 599px) {
@@ -155,6 +173,11 @@
     height: 60px;
     left: 50px;
   }
+  .footer-text {
+    font-size: 1rem;
+    margin-left: 40px;
+    margin-right: 40px;
+  }
 }
 @media only screen and (min-width: 350px) and (max-width: 399px) {
   body {
@@ -180,6 +203,11 @@
     width: 250px;
     height: 60px;
     left: 40px;
+  }
+  .footer-text {
+    font-size: 0.875rem;
+    margin-left: 40px;
+    margin-right: 40px;
   }
 }
 
@@ -207,5 +235,10 @@
     width: 250px;
     height: 60px;
     left: 20px;
+  }
+  .footer-text {
+    font-size: 0.75rem;
+    margin-left: 40px;
+    margin-right: 40px;
   }
 }
