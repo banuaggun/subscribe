@@ -7,28 +7,28 @@
 	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-
 	<link rel="stylesheet" type="text/css" href="main-page.css" />
+	<link rel="stylesheet" type="text/css" href="main-page-responsive.css" />
 	<link rel="stylesheet" type="text/css" href="form-view-end-2.css" />
 	<link rel="stylesheet" type="text/css" href="form-view-end-2-responsive.css" />
-	<link rel="stylesheet" type="text/css" href="main-page-responsive.css" />
-	<script src="script.js" type="text/javascript"></script>
 
-</head>
+	<link rel="stylesheet" type="text/css" href="tooltip.css" /> 
+	<head>
 
 	<body>
 		<div class="container">
 			<div class="form-area" id="modal">
-				<form class="modal-content" id="form" action="#modal1" method="POST" enctype="text/plain"
-					accept-charset="utf-8" autocomplete="off" onsubmit="kontrol(this)" target="top">
+				<form class="modal-content" id="form" action="" method="POST" enctype="text/plain"
+					accept-charset="utf-8" autocomplete="off">
 					<div class="form-container">
 						<label class="definition" for="name">Name</label>
-						<input type="text" name="name" autocomplete="off" autofocus required placeholder="" />
+						<input type="text" name="name" id="name" autocomplete="off" autofocus placeholder="" />
 						<br />
 						<label class="definition" for="email">Email</label>
-						<input type="text" name="email" autocomplete="off" autofocus required placeholder="" />
+						<input type="text" name="email" id="mail" autocomplete="off" autofocus placeholder="" />
+						<span class="error" aria-live="polite"></span>
 						<br />
-						<label class="question" for="question">How often would you like to receive newsletter?</label>
+						<label class="question" for="question" required>How often would you like to receive newsletter?</label>
 						<br />
 						<div class="select-items">
 							<div class="select-item">
@@ -44,7 +44,7 @@
 								<label for="select3">Every Month</label>
 							</div>
 						</div>
-
+					
 						<br />
 						<div class="checkbox">
 							<span class="check">
@@ -53,28 +53,26 @@
 									<span class="check-target"></span>
 								</label>
 							</span>
+</div>
+							<label for="explanation" name="explanation" required>I have read and accept the privacy and
+								security agreement.</label>
 						</div>
-						<label for="explanation" name="explanation" required>I have read and accept the privacy and
-							security agreement.</label>
-					</div>
-					<br />
-					<button type="submit" id="submit">
-						<a href="confirm-page.html" target="_top">
+						<br />
+						<button type="submit" id="submit">
+							
 							<span>Confirm</span>
-						</a>
 
-					</button>
+						</button>
+					</div>
+				</form>
+
 			</div>
-			</form>
-
+			
+			<div class="footer">
+				<span class="footer-text">© 2021 - 2022 All rights reserved by Banu AĞGÜN.</span>
+</div>
 		</div>
-
-		<div class="footer">
-			<span class="footer-text">
-				© 2021 - 2022 All rights reserved by Banu AĞGÜN.
-			</span>
-	</div>
-		</div>
+ <script src="tooltip-script.js"></script>
 
 	</body>
 

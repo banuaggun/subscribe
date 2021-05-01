@@ -446,28 +446,28 @@
   }
 }
 
-@media only screen and (min-width: 300px) and (max-width: 399px) {
+@media only screen and (min-width: 350px) and (max-width: 399px) {
   .form-area {
     font-size: 0.75rem;
     width: 280px;
-    height: 600px;
+    height: 500px;
     left: -webkit-calc(50% - (280px / 2));
     left: -moz-calc(50% - (280px / 2));
     left: -ms-calc(50% - (280px / 2));
     left: -o-calc(50% - (280px / 2));
     left: calc(50% - (280px / 2));
     top: calc(50% - (600px / 2));
-    top: -webkit-calc(50% - (600px / 2));
-    top: -moz-calc(50% - (600px / 2));
-    top: -ms-calc(50% - (600px / 2));
-    top: -o-calc(50% - (600px / 2));
-    top: calc(50% - (600px / 2));
+    top: -webkit-calc(50% - (500px / 2));
+    top: -moz-calc(50% - (500px / 2));
+    top: -ms-calc(50% - (500px / 2));
+    top: -o-calc(50% - (500px / 2));
+    top: calc(50% - (500px / 2));
   }
 
   .form-container {
     width: 240px;
-    height: 530px;
-    margin: 25px auto;
+    height: 480px;
+    margin: 10px auto;
   }
 
   .form-container input {
@@ -480,16 +480,16 @@
   }
 
   .form-container label[for="email"] {
-    bottom: 20px;
+    bottom: 35px;
   }
   .form-container input[name="name"] {
     left: 20px;
-    bottom: 10px;
+    bottom: 15px;
   }
 
   .form-container input[name="email"] {
     left: 20px;
-    bottom: 10px;
+    bottom: 30px;
   }
 
   .form-container label[for="question"] {
@@ -497,14 +497,14 @@
     width: 220px;
     display: block;
     left: 20px;
-    bottom: 20px;
+    bottom: 50px;
   }
 
   .select-items {
     position: relative;
     display: block;
     left: 15px;
-    bottom: 35px;
+    bottom: 70px;
   }
   .select-items .select-item {
     width: 160px;
@@ -520,18 +520,118 @@
     top: -2px;
   }
   .checkbox {
-    margin-top: 80px;
+    margin-top: 30px;
   }
   label[for="explanation"] {
-    margin-top: 90px;
+    margin-top: 40px;
     width: 187px;
     line-height: 25px;
-    margin-left: -3px;
+    margin-left: -10px;
   }
   button[type="submit"] {
-    bottom: 60px;
+    bottom: 35px;
     width: 200px;
     height: 40px;
+    left: -webkit-calc(50% - (200px / 2));
+    left: -moz-calc(50% - (200px / 2));
+    left: -ms-calc(50% - (200px / 2));
+    left: -o-calc(50% - (200px / 2));
+    left: calc(50% - (200px / 2));
+  }
+  button[type="submit"] a,
+  button[type="submit"] a span {
+    font-size: 0.75rem;
+  }
+}
+
+@media only screen and (min-width: 300px) and (max-width: 349px) {
+  .form-area {
+    font-size: 0.75rem;
+    width: 280px;
+    height: 440px;
+    left: -webkit-calc(50% - (280px / 2));
+    left: -moz-calc(50% - (280px / 2));
+    left: -ms-calc(50% - (280px / 2));
+    left: -o-calc(50% - (280px / 2));
+    left: calc(50% - (280px / 2));
+    top: -webkit-calc(50% - (440px / 2));
+    top: -moz-calc(50% - (440px / 2));
+    top: -ms-calc(50% - (440px / 2));
+    top: -o-calc(50% - (440px / 2));
+    top: calc(50% - (440px / 2));
+  }
+
+  .form-container {
+    width: 240px;
+    height: 350px;
+    margin: 10px auto;
+  }
+
+  .form-container input {
+    width: 205px;
+    height: 20px;
+  }
+
+  .form-container label[for="name"] {
+    top: 0px;
+    left: 10px;
+  }
+
+  .form-container label[for="email"] {
+    bottom: 40px;
+    left: 10px;
+  }
+  .form-container input[name="name"] {
+    left: 10px;
+    bottom: 25px;
+  }
+
+  .form-container input[name="email"] {
+    left: 10px;
+    bottom: 35px;
+  }
+
+  .form-container label[for="question"] {
+    position: relative;
+    width: 220px;
+    display: block;
+    left: 10px;
+    bottom: 50px;
+  }
+
+  .select-items {
+    position: relative;
+    display: block;
+    left: 5px;
+    bottom: 70px;
+  }
+  .select-items .select-item {
+    width: 160px;
+    height: 30px;
+    font-size: 0.75rem;
+    margin-left: 6px;
+    margin-top: 5px;
+  }
+  .select-items .select-item input[type="radio"] + label {
+    width: 160px;
+    height: 30px;
+    left: -1px;
+    top: -2px;
+  }
+  .checkbox {
+    left: 5px;
+    margin-top: 20px;
+  }
+  label[for="explanation"] {
+    margin-top: 30px;
+    width: 187px;
+    line-height: 20px;
+    margin-left: -25px;
+  }
+  button[type="submit"] {
+    bottom: 20px;
+    width: 200px;
+    height: 30px;
     left: -webkit-calc(50% - (200px / 2));
     left: -moz-calc(50% - (200px / 2));
     left: -ms-calc(50% - (200px / 2));
