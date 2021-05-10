@@ -98,6 +98,7 @@ button#mybtn:focus {
   border: none;
   box-shadow: 1px 1px 6px var(--textColor);
 }
+
 .footer {
   overflow-x: hidden;
   width: 100%;
@@ -113,4 +114,88 @@ button#mybtn:focus {
   color: var(--textColor);
   line-height: 35px;
   font-weight: 500;
+}
+
+.footer .iconArea ul {
+  margin: 0;
+  padding: 0;
+  z-index: 10;
+  display: flex;
+  position: absolute;
+  bottom: 0px;
+}
+
+.footer .iconArea ul li {
+  list-style: none;
+}
+
+.footer .iconArea ul li a {
+  bottom: 0;
+  vertical-align: middle;
+  position: absolute;
+  text-align: center;
+  color: var(--textColor);
+  opacity: 0.7;
+  border: 1px solid transparent;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  transition: 0.5s;
+}
+
+.footer .iconArea ul li a i {
+  vertical-align: middle;
+  text-align: center;
+  position: relative;
+}
+
+.footer .iconArea ul li a::before {
+  content: "";
+  position: absolute;
+  vertical-align: middle;
+  text-align: center;
+  color: var(--textColor);
+  line-height: 20px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+  transform: scale(0.9);
+  -webkit-transform: scale(0.9);
+  -moz-transform: scale(0.9);
+  -ms-transform: scale(0.9);
+  -o-transform: scale(0.9);
+  z-index: -1;
+}
+
+.footer .iconArea ul li a:hover::before {
+  -webkit-box-shadow: 0 0 15px var(--textColor);
+  -moz-box-shadow: 0 0 15px var(--textColor);
+  -o-box-shadow: 0 0 15px var(--textColor);
+  -ms-box-shadow: 0 0 15px var(--textColor);
+  box-shadow: 0 0 15px var(--textColor);
+  transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  -o-transform: scale(1.1);
+}
+
+.footer .iconArea ul li a:hover {
+  color: var(--textColor);
+  -webkit-box-shadow: 0 0 5px var(--textColor);
+  -moz-box-shadow: 0 0 5px var(--textColor);
+  -ms-box-shadow: 0 0 5px var(--textColor);
+  -o-box-shadow: 0 0 5px var(--textColor);
+  box-shadow: 0 0 5px var(--textColor);
+  text-shadow: 0 0 2px var(--textColor);
+  opacity: 1;
 }
