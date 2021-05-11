@@ -75,6 +75,10 @@ button {
   border: none;
   position: absolute;
   font-weight: 600;
+  -webkit-box-shadow: 1px 1px 2px var(--textColor);
+  -moz-box-shadow: 1px 1px 2px var(--textColor);
+  -ms-box-shadow: 1px 1px 2px var(--textColor);
+  -o-box-shadow: 1px 1px 2px var(--textColor);
   box-shadow: 1px 1px 2px var(--textColor);
 }
 
@@ -90,12 +94,20 @@ button#mybtn > span > i.material-icons {
 }
 
 button#mybtn:hover {
+  -webkit-box-shadow: 1px 1px 6px var(--textColor);
+  -moz-box-shadow: 1px 1px 6px var(--textColor);
+  -ms-box-shadow: 1px 1px 6px var(--textColor);
+  -o-box-shadow: 1px 1px 6px var(--textColor);
   box-shadow: 1px 1px 6px var(--textColor);
 }
 
 button#mybtn:focus {
   outline: none;
   border: none;
+  -webkit-box-shadow: 1px 1px 6px var(--textColor);
+  -moz-box-shadow: 1px 1px 6px var(--textColor);
+  -ms-box-shadow: 1px 1px 6px var(--textColor);
+  -o-box-shadow: 1px 1px 6px var(--textColor);
   box-shadow: 1px 1px 6px var(--textColor);
 }
 
@@ -120,6 +132,10 @@ button#mybtn:focus {
   margin: 0;
   padding: 0;
   z-index: 10;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
   display: flex;
   position: absolute;
   bottom: 0px;
@@ -135,6 +151,11 @@ button#mybtn:focus {
   position: absolute;
   text-align: center;
   color: var(--textColor);
+  -webkit-filter: Alpha(opacity=70);
+  -moz-opacity: 0.7;
+  -khtml-opacity: 0.7;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=70)";
+  filter: Alpha(opacity=70);
   opacity: 0.7;
   border: 1px solid transparent;
   border-radius: 50%;
@@ -142,6 +163,10 @@ button#mybtn:focus {
   -moz-border-radius: 50%;
   -ms-border-radius: 50%;
   -o-border-radius: 50%;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
   transition: 0.5s;
 }
 
@@ -197,5 +222,10 @@ button#mybtn:focus {
   -o-box-shadow: 0 0 5px var(--textColor);
   box-shadow: 0 0 5px var(--textColor);
   text-shadow: 0 0 2px var(--textColor);
-  opacity: 1;
+  -webkit-filter: Alpha(opacity=100);
+  -moz-opacity: 1;
+  -khtml-opacity: 1;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+  filter: Alpha(opacity=100);
+  opacity: 100;
 }
